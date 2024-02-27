@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  text-decoration: none;
+ 
+  color: hsl(0, 0%, 0%);
+}
+
+h1 {
+  color: hsl(217, 100%, 50%);
+}
+
+
+#facebook {
+  margin-top: 200px;
+  margin-left: 175px;
+  font-size: 33px;
+  display: inline-block;
+}
+
+#facebook p {
+  line-height: 35px;
+  width: 600px;
+}
+
+#login {
+  box-shadow: 0px 0px 10px 5px hsl(0, 0%, 92%);
+  width: 350px;
+  height: 350px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top:150px;
+  margin-right:250px;
+  line-height: 70px;
+}
+
+#login input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 15px;
+  box-sizing: border-box;
+  border:solid hsl(0, 10%, 94%);
+}
+
+#signin {
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 20px;
+  box-sizing: border-box;
+  border:solid hsl(0, 10%, 94%);
+  background-color:hsl(222, 100%, 50%);
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+}
+
+a{
+  text-decoration:none;
+  color: hsl(240, 100%, 50%);
+}
+
+#account {
+  background-color: hsl(84, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+  font: 18px bold;
+  width:60%;
+  box-sizing: border-box;
+  height: 50px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.login {
+  float: right;
+}
